@@ -11,54 +11,96 @@ namespace Huffman_Project
     {
 
 
-        public Dictionary<byte, List<bool>> Compress(string fileToCompress, string compressedFile)
+        public void Compress(string fileToCompress, string compressedFile)
         {
             if (!File.Exists(fileToCompress))
                 throw new FileNotFoundException(nameof(fileToCompress));
 
             var inputBytes = File.ReadAllBytes(fileToCompress);
 
-            var frequencies = ExtractFrequencies(inputBytes);
+            var compressedBits = CompressBinary(inputBytes);
+
+            FilesHelper.WriteBooleanListToFile(compressedBits, compressedFile);
+        }
+
+        public List<bool> CompressBinary(byte[] bytesToCompress)
+        {
+            var frequencies = ExtractFrequencies(bytesToCompress);
 
             var huffmanCodes = GenerateHuffmanCodes(frequencies);
 
             var compressedBits = GenerateHeader(huffmanCodes);
-            compressedBits.AddRange(CompressBytes(inputBytes, huffmanCodes));
+            compressedBits.AddRange(CompressBytes(bytesToCompress, huffmanCodes));
 
-            //add padding bit
+            //add ending bit
             compressedBits.Add(true);
-
-            FilesHelper.WriteBooleanListToFile(compressedBits, compressedFile);
-
-            return huffmanCodes;
+            return compressedBits;
         }
-        public Dictionary<byte, List<bool>> Decode(string fileToDecode, string decodedFile)
+
+        public void Decode(string fileToDecode, string decodedFile)
         {
             if (!File.Exists(fileToDecode))
                 throw new FileNotFoundException(nameof(fileToDecode));
 
             var inputBytes = FilesHelper.ReadBooleanListFromFile(fileToDecode);
 
-            var frequencies = ExtractFrequencies(inputBytes);
+            var decodedBytes = DecodeBinary(inputBytes);
 
-            var huffmanCodes = GenerateHuffmanCodes(frequencies);
-
-            var compressedBits = GenerateHeader(huffmanCodes);
-            compressedBits.AddRange(CompressBytes(inputBytes, huffmanCodes));
-
-            //add padding bit
-            compressedBits.Add(true);
-
-            FilesHelper.WriteBooleanListToFile(compressedBits, decodedFile);
-
-            return huffmanCodes;
+            File.WriteAllBytes(decodedFile, decodedBytes.ToArray());
         }
 
-        private (int HeaderLength, Dictionary<byte, List<bool>> HuffmanCodes) ReadHeader(List<bool> file)
+        public List<byte> DecodeBinary(List<bool> bytesToDecode)
         {
+            (var headerLength, var huffmanCodes) = ReadHeader(bytesToDecode);
+            RemoveBinaryPadding(bytesToDecode);
 
+            return DecodeBytes(bytesToDecode, headerLength, huffmanCodes);
         }
 
+        private (int HeaderLength, Dictionary<string, byte> HuffmanCodes) ReadHeader(List<bool> file)
+        {
+            var huffmanCodes = new Dictionary<string, byte>();
+
+            var tableEntriesCount = (int)file.ExtractByte(0);
+            for (int i = 0; i < tableEntriesCount; i++)
+            {
+                var originalByte = file.ExtractByte(8 + 24 * i);
+                var huffmanEncoded = file.GetRange(16 + 24 * i, 16);
+                RemoveBinaryPadding(huffmanEncoded);
+                huffmanCodes.Add(huffmanEncoded.ToBinaryString(), originalByte);
+            }
+            var headerLength = 8 + tableEntriesCount * 24;
+            return (headerLength, huffmanCodes);
+        }
+
+        private void RemoveBinaryPadding(List<bool> bits)
+        {
+            var endingBitPos = bits.LastIndexOf(true);
+            bits.RemoveRange(endingBitPos, bits.Count - endingBitPos);
+        }
+        private List<bool> CompressBytes(byte[] data, Dictionary<byte, List<bool>> huffmanCodes)
+        {
+            var compressed = new List<bool>(data.Length * 8);
+            foreach (var curByte in data)
+                compressed.AddRange(huffmanCodes[curByte]);
+            return compressed;
+        }
+
+        private List<byte> DecodeBytes(List<bool> data, int headerLength, Dictionary<string, byte> huffmanCodes)
+        {
+            var decoded = new List<byte>();
+            string accumulating = "";
+            foreach (var curBit in data.Skip(headerLength))
+            {
+                accumulating += curBit ? '1' : '0';
+                if (huffmanCodes.TryGetValue(accumulating, out var decodedByte))
+                {
+                    decoded.Add(decodedByte);
+                    accumulating = "";
+                }
+            }
+            return decoded;
+        }
         private void ExtractCodesHelper(HuffmanNode<byte> root, List<bool> binary, Dictionary<byte, List<bool>> codesDict)
         {
             if (root == null)
@@ -114,13 +156,7 @@ namespace Huffman_Project
 
         }
 
-        private List<bool> CompressBytes(byte[] data, Dictionary<byte, List<bool>> huffmanCodes)
-        {
-            var compressed = new List<bool>(data.Length * 8);
-            foreach (var curByte in data)
-                compressed.AddRange(huffmanCodes[curByte]);
-            return compressed;
-        }
+
 
 
 

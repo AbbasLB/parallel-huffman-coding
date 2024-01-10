@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -24,7 +25,7 @@ namespace Huffman_Project
                     for (int i = 0; i < 8; i++)
                     {
                         // Extract each bit from the byte and add to the list
-                        bool value = (currentByte & (1 << bitPosition)) != 0;
+                        bool value = (currentByte & (1 << (7 - bitPosition))) != 0;
                         readBooleanList.Add(value);
                         bitPosition++;
 
@@ -33,6 +34,7 @@ namespace Huffman_Project
                             bitPosition = 0;
                         }
                     }
+                    readRes = fileStream.ReadByte();
                 }
             }
 
@@ -53,7 +55,7 @@ namespace Huffman_Project
                     // Set the corresponding bit in the byte
                     if (value)
                     {
-                        currentByte |= (byte)(1 << bitPosition);
+                        currentByte |= (byte)(1 << (7 - bitPosition));
                     }
 
                     bitPosition++;
@@ -70,45 +72,12 @@ namespace Huffman_Project
                 // If there are remaining bits, write the last byte padded with zeros
                 if (bitPosition > 0)
                 {
-                    fileStream.WriteByte(currentByte);
+                    writer.Write(currentByte);
                 }
             }
         }
-        public static List<bool> ToListOfBool(this byte packedByte)
-        {
-            List<bool> booleanList = new List<bool>();
+    
 
-            for (int i = 0; i < 8; i++)
-            {
-                // Extract each bit from the byte and add to the list
-                bool value = (packedByte & (1 << i)) != 0;
-                booleanList.Add(value);
-            }
-
-            booleanList.Reverse(); // Reversing to maintain the original order
-
-            return booleanList;
-        }
-        public static byte ToByte(List<bool> data, int startingIndex)
-        {
-            var byteList = data.GetRange(startingIndex, 8);
-
-            byte result = 0;
-            // This assumes the array never contains more than 8 elements!
-            int index = 8 - byteList.Length;
-
-            // Loop through the array
-            foreach (bool b in byteList)
-            {
-                // if the element is 'true' set the bit at that position
-                if (b)
-                    result |= (byte)(1 << (7 - index));
-
-                index++;
-            }
-
-            return result;
-        }
 
     }
 }
