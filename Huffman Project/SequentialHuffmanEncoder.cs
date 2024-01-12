@@ -80,7 +80,7 @@ namespace Huffman_Project
         }
         private List<bool> CompressBytes(byte[] data, Dictionary<byte, List<bool>> huffmanCodes)
         {
-            var compressed = new List<bool>(data.Length * 8);
+            var compressed = new List<bool>(data.Length * 8 );
             foreach (var curByte in data)
                 compressed.AddRange(huffmanCodes[curByte]);
             return compressed;

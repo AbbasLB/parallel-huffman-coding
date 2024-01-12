@@ -1,0 +1,169 @@
+[Info] Processing all_same_file_100MB.bin
+[Info] Compress sequentially all_same_file_100MB.bin
+{"Filename":"all_same_file_100MB.bin","Action":"compress_sequential","Time":4.267,"Threads":1,"CompressionRatio":7.999996948243352}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\all_same_file_100MB.bin Parallel_Compressed\all_same_file_100MB.bin_8.compressed 8
+[Info] Compress parallel 8 all_same_file_100MB.bin
+{"Filename":"all_same_file_100MB.bin","Action":"compress_parallel","Time":1.005,"Threads":8,"CompressionRatio":7.999976196359889}
+
+[Info] Processing all_same_file_10MB.bin
+[Info] Compress sequentially all_same_file_10MB.bin
+{"Filename":"all_same_file_10MB.bin","Action":"compress_sequential","Time":0.473,"Threads":1,"CompressionRatio":7.99996948253829}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\all_same_file_10MB.bin Parallel_Compressed\all_same_file_10MB.bin_8.compressed 8
+[Info] Compress parallel 8 all_same_file_10MB.bin
+{"Filename":"all_same_file_10MB.bin","Action":"compress_parallel","Time":0.158,"Threads":8,"CompressionRatio":7.999761969973123}
+
+[Info] Processing all_same_file_1MB.bin
+[Info] Compress sequentially all_same_file_1MB.bin
+{"Filename":"all_same_file_1MB.bin","Action":"compress_sequential","Time":0.052,"Threads":1,"CompressionRatio":7.999694835859838}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\all_same_file_1MB.bin Parallel_Compressed\all_same_file_1MB.bin_8.compressed 8
+[Info] Compress parallel 8 all_same_file_1MB.bin
+{"Filename":"all_same_file_1MB.bin","Action":"compress_parallel","Time":0.024,"Threads":8,"CompressionRatio":7.997620336966388}
+
+[Info] Processing all_same_file_200MB.bin
+[Info] Compress sequentially all_same_file_200MB.bin
+{"Filename":"all_same_file_200MB.bin","Action":"compress_sequential","Time":7.388,"Threads":1,"CompressionRatio":7.9999984741213845}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\all_same_file_200MB.bin Parallel_Compressed\all_same_file_200MB.bin_8.compressed 8
+[Info] Compress parallel 8 all_same_file_200MB.bin
+{"Filename":"all_same_file_200MB.bin","Action":"compress_parallel","Time":1.791,"Threads":8,"CompressionRatio":7.999988098162238}
+
+[Info] Processing all_same_file_20MB.bin
+[Info] Compress sequentially all_same_file_20MB.bin
+{"Filename":"all_same_file_20MB.bin","Action":"compress_sequential","Time":0.839,"Threads":1,"CompressionRatio":7.999984741240041}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\all_same_file_20MB.bin Parallel_Compressed\all_same_file_20MB.bin_8.compressed 8
+[Info] Compress parallel 8 all_same_file_20MB.bin
+{"Filename":"all_same_file_20MB.bin","Action":"compress_parallel","Time":0.287,"Threads":8,"CompressionRatio":7.999880983215963}
+
+[Info] Processing all_same_file_50MB.bin
+[Info] Compress sequentially all_same_file_50MB.bin
+{"Filename":"all_same_file_50MB.bin","Action":"compress_sequential","Time":1.923,"Threads":1,"CompressionRatio":7.999993896489031}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\all_same_file_50MB.bin Parallel_Compressed\all_same_file_50MB.bin_8.compressed 8
+[Info] Compress parallel 8 all_same_file_50MB.bin
+{"Filename":"all_same_file_50MB.bin","Action":"compress_parallel","Time":0.61,"Threads":8,"CompressionRatio":7.999952392861432}
+
+[Info] Processing all_same_file_5MB.bin
+[Info] Compress sequentially all_same_file_5MB.bin
+{"Filename":"all_same_file_5MB.bin","Action":"compress_sequential","Time":0.236,"Threads":1,"CompressionRatio":7.999938965309408}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\all_same_file_5MB.bin Parallel_Compressed\all_same_file_5MB.bin_8.compressed 8
+[Info] Compress parallel 8 all_same_file_5MB.bin
+{"Filename":"all_same_file_5MB.bin","Action":"compress_parallel","Time":0.079,"Threads":8,"CompressionRatio":7.999523954110397}
+
+[Info] Processing ten_chunks_file_100MB.bin
+[Info] Compress sequentially ten_chunks_file_100MB.bin
+{"Filename":"ten_chunks_file_100MB.bin","Action":"compress_sequential","Time":5.011,"Threads":1,"CompressionRatio":2.352939486917303}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\ten_chunks_file_100MB.bin Parallel_Compressed\ten_chunks_file_100MB.bin_8.compressed 8
+[Info] Compress parallel 8 ten_chunks_file_100MB.bin
+{"Filename":"ten_chunks_file_100MB.bin","Action":"compress_parallel","Time":1.094,"Threads":8,"CompressionRatio":7.804839706836186}
+
+[Info] Processing ten_chunks_file_10MB.bin
+[Info] Compress sequentially ten_chunks_file_10MB.bin
+{"Filename":"ten_chunks_file_10MB.bin","Action":"compress_sequential","Time":0.627,"Threads":1,"CompressionRatio":2.4999827147725275}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\ten_chunks_file_10MB.bin Parallel_Compressed\ten_chunks_file_10MB.bin_8.compressed 8
+[Info] Compress parallel 8 ten_chunks_file_10MB.bin
+{"Filename":"ten_chunks_file_10MB.bin","Action":"compress_parallel","Time":0.158,"Threads":8,"CompressionRatio":7.804494646288872}
+
+[Info] Processing ten_chunks_file_1MB.bin
+[Info] Compress sequentially ten_chunks_file_1MB.bin
+{"Filename":"ten_chunks_file_1MB.bin","Action":"compress_sequential","Time":0.069,"Threads":1,"CompressionRatio":2.6664954391604088}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\ten_chunks_file_1MB.bin Parallel_Compressed\ten_chunks_file_1MB.bin_8.compressed 8
+[Info] Compress parallel 8 ten_chunks_file_1MB.bin
+{"Filename":"ten_chunks_file_1MB.bin","Action":"compress_parallel","Time":0.024,"Threads":8,"CompressionRatio":7.801047509932001}
+
+[Info] Processing ten_chunks_file_200MB.bin
+[Info] Compress sequentially ten_chunks_file_200MB.bin
+{"Filename":"ten_chunks_file_200MB.bin","Action":"compress_sequential","Time":10.254,"Threads":1,"CompressionRatio":2.4999991357329496}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\ten_chunks_file_200MB.bin Parallel_Compressed\ten_chunks_file_200MB.bin_8.compressed 8
+[Info] Compress parallel 8 ten_chunks_file_200MB.bin
+{"Filename":"ten_chunks_file_200MB.bin","Action":"compress_parallel","Time":1.887,"Threads":8,"CompressionRatio":7.804858877761248}
+
+[Info] Processing ten_chunks_file_20MB.bin
+[Info] Compress sequentially ten_chunks_file_20MB.bin
+{"Filename":"ten_chunks_file_20MB.bin","Action":"compress_sequential","Time":1.147,"Threads":1,"CompressionRatio":2.6666578505065774}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\ten_chunks_file_20MB.bin Parallel_Compressed\ten_chunks_file_20MB.bin_8.compressed 8
+[Info] Compress parallel 8 ten_chunks_file_20MB.bin
+{"Filename":"ten_chunks_file_20MB.bin","Action":"compress_parallel","Time":0.254,"Threads":8,"CompressionRatio":7.804686342826052}
+
+[Info] Processing ten_chunks_file_50MB.bin
+[Info] Compress sequentially ten_chunks_file_50MB.bin
+{"Filename":"ten_chunks_file_50MB.bin","Action":"compress_sequential","Time":2.513,"Threads":1,"CompressionRatio":2.3529377973664447}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\ten_chunks_file_50MB.bin Parallel_Compressed\ten_chunks_file_50MB.bin_8.compressed 8
+[Info] Compress parallel 8 ten_chunks_file_50MB.bin
+{"Filename":"ten_chunks_file_50MB.bin","Action":"compress_parallel","Time":0.593,"Threads":8,"CompressionRatio":7.804801365268598}
+
+[Info] Processing ten_chunks_file_5MB.bin
+[Info] Compress sequentially ten_chunks_file_5MB.bin
+{"Filename":"ten_chunks_file_5MB.bin","Action":"compress_sequential","Time":0.318,"Threads":1,"CompressionRatio":2.352907385865897}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\ten_chunks_file_5MB.bin Parallel_Compressed\ten_chunks_file_5MB.bin_8.compressed 8
+[Info] Compress parallel 8 ten_chunks_file_5MB.bin
+{"Filename":"ten_chunks_file_5MB.bin","Action":"compress_parallel","Time":0.079,"Threads":8,"CompressionRatio":7.804111281463509}
+
+[Info] Processing uniformly_random_file_100MB.bin
+[Info] Compress sequentially uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin","Action":"compress_sequential","Time":11.479,"Threads":1,"CompressionRatio":1.320013073539516}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\uniformly_random_file_100MB.bin Parallel_Compressed\uniformly_random_file_100MB.bin_8.compressed 8
+[Info] Compress parallel 8 uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin","Action":"compress_parallel","Time":1.817,"Threads":8,"CompressionRatio":1.3200302392791479}
+
+[Info] Processing uniformly_random_file_10MB.bin
+[Info] Compress sequentially uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin","Action":"compress_sequential","Time":1.056,"Threads":1,"CompressionRatio":1.3200399772544076}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\uniformly_random_file_10MB.bin Parallel_Compressed\uniformly_random_file_10MB.bin_8.compressed 8
+[Info] Compress parallel 8 uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin","Action":"compress_parallel","Time":0.227,"Threads":8,"CompressionRatio":1.3199113677985865}
+
+[Info] Processing uniformly_random_file_1MB.bin
+[Info] Compress sequentially uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin","Action":"compress_sequential","Time":0.122,"Threads":1,"CompressionRatio":1.319876644219271}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\uniformly_random_file_1MB.bin Parallel_Compressed\uniformly_random_file_1MB.bin_8.compressed 8
+[Info] Compress parallel 8 uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin","Action":"compress_parallel","Time":0.039,"Threads":8,"CompressionRatio":1.3179141639424208}
+
+[Info] Processing uniformly_random_file_200MB.bin
+[Info] Compress sequentially uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin","Action":"compress_sequential","Time":26.013,"Threads":1,"CompressionRatio":1.3200129322937522}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\uniformly_random_file_200MB.bin Parallel_Compressed\uniformly_random_file_200MB.bin_8.compressed 8
+[Info] Compress parallel 8 uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin","Action":"compress_parallel","Time":3.582,"Threads":8,"CompressionRatio":1.3200244065334168}
+
+[Info] Processing uniformly_random_file_20MB.bin
+[Info] Compress sequentially uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin","Action":"compress_sequential","Time":2.018,"Threads":1,"CompressionRatio":1.3200268493009968}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\uniformly_random_file_20MB.bin Parallel_Compressed\uniformly_random_file_20MB.bin_8.compressed 8
+[Info] Compress parallel 8 uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin","Action":"compress_parallel","Time":0.512,"Threads":8,"CompressionRatio":1.3199933658933274}
+
+[Info] Processing uniformly_random_file_50MB.bin
+[Info] Compress sequentially uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin","Action":"compress_sequential","Time":4.929,"Threads":1,"CompressionRatio":1.3200237584537398}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\uniformly_random_file_50MB.bin Parallel_Compressed\uniformly_random_file_50MB.bin_8.compressed 8
+[Info] Compress parallel 8 uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin","Action":"compress_parallel","Time":0.984,"Threads":8,"CompressionRatio":1.3200266166560757}
+
+[Info] Processing uniformly_random_file_5MB.bin
+[Info] Compress sequentially uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin","Action":"compress_sequential","Time":0.558,"Threads":1,"CompressionRatio":1.3200311698644311}
+
+[Info] ..\Huffman Project\bin\Debug\net6.0\Huffman Project.exe compress_parallel ToCompress\uniformly_random_file_5MB.bin Parallel_Compressed\uniformly_random_file_5MB.bin_8.compressed 8
+[Info] Compress parallel 8 uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin","Action":"compress_parallel","Time":0.133,"Threads":8,"CompressionRatio":1.3197381003743833}
+
+[Info] Compression and decompression completed.

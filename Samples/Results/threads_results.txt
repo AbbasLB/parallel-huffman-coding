@@ -1,0 +1,439 @@
+[Info] Processing uniformly_random_file_100MB.bin
+[Info] Compress sequentially uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin","Action":"compress_sequential","Time":9.634,"Threads":1}
+
+[Info] Decompress sequentially uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin.compressed","Action":"decode_sequential","Time":22.155,"Threads":1}
+
+[Info] Compress parallel 1 uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin","Action":"compress_parallel","Time":9.524,"Threads":1}
+
+[Info] Compress parallel 1 uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin_1.compressed","Action":"decode_parallel","Time":21.48,"Threads":1}
+
+[Info] Compress parallel 2 uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin","Action":"compress_parallel","Time":5.356,"Threads":2}
+
+[Info] Compress parallel 2 uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin_2.compressed","Action":"decode_parallel","Time":11.452,"Threads":2}
+
+[Info] Compress parallel 3 uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin","Action":"compress_parallel","Time":3.604,"Threads":3}
+
+[Info] Compress parallel 3 uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin_3.compressed","Action":"decode_parallel","Time":7.942,"Threads":3}
+
+[Info] Compress parallel 4 uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin","Action":"compress_parallel","Time":2.775,"Threads":4}
+
+[Info] Compress parallel 4 uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin_4.compressed","Action":"decode_parallel","Time":6.222,"Threads":4}
+
+[Info] Compress parallel 5 uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin","Action":"compress_parallel","Time":2.367,"Threads":5}
+
+[Info] Compress parallel 5 uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin_5.compressed","Action":"decode_parallel","Time":5.083,"Threads":5}
+
+[Info] Compress parallel 6 uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin","Action":"compress_parallel","Time":2.126,"Threads":6}
+
+[Info] Compress parallel 6 uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin_6.compressed","Action":"decode_parallel","Time":4.787,"Threads":6}
+
+[Info] Compress parallel 7 uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin","Action":"compress_parallel","Time":1.921,"Threads":7}
+
+[Info] Compress parallel 7 uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin_7.compressed","Action":"decode_parallel","Time":4.415,"Threads":7}
+
+[Info] Compress parallel 8 uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin","Action":"compress_parallel","Time":1.895,"Threads":8}
+
+[Info] Compress parallel 8 uniformly_random_file_100MB.bin
+{"Filename":"uniformly_random_file_100MB.bin_8.compressed","Action":"decode_parallel","Time":4.303,"Threads":8}
+
+[Info] Processing uniformly_random_file_10MB.bin
+[Info] Compress sequentially uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin","Action":"compress_sequential","Time":1.09,"Threads":1}
+
+[Info] Decompress sequentially uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin.compressed","Action":"decode_sequential","Time":2.445,"Threads":1}
+
+[Info] Compress parallel 1 uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin","Action":"compress_parallel","Time":1.059,"Threads":1}
+
+[Info] Compress parallel 1 uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin_1.compressed","Action":"decode_parallel","Time":2.296,"Threads":1}
+
+[Info] Compress parallel 2 uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin","Action":"compress_parallel","Time":0.642,"Threads":2}
+
+[Info] Compress parallel 2 uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin_2.compressed","Action":"decode_parallel","Time":1.232,"Threads":2}
+
+[Info] Compress parallel 3 uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin","Action":"compress_parallel","Time":0.469,"Threads":3}
+
+[Info] Compress parallel 3 uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin_3.compressed","Action":"decode_parallel","Time":0.846,"Threads":3}
+
+[Info] Compress parallel 4 uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin","Action":"compress_parallel","Time":0.377,"Threads":4}
+
+[Info] Compress parallel 4 uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin_4.compressed","Action":"decode_parallel","Time":0.675,"Threads":4}
+
+[Info] Compress parallel 5 uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin","Action":"compress_parallel","Time":0.317,"Threads":5}
+
+[Info] Compress parallel 5 uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin_5.compressed","Action":"decode_parallel","Time":0.575,"Threads":5}
+
+[Info] Compress parallel 6 uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin","Action":"compress_parallel","Time":0.276,"Threads":6}
+
+[Info] Compress parallel 6 uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin_6.compressed","Action":"decode_parallel","Time":0.556,"Threads":6}
+
+[Info] Compress parallel 7 uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin","Action":"compress_parallel","Time":0.244,"Threads":7}
+
+[Info] Compress parallel 7 uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin_7.compressed","Action":"decode_parallel","Time":0.481,"Threads":7}
+
+[Info] Compress parallel 8 uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin","Action":"compress_parallel","Time":0.211,"Threads":8}
+
+[Info] Compress parallel 8 uniformly_random_file_10MB.bin
+{"Filename":"uniformly_random_file_10MB.bin_8.compressed","Action":"decode_parallel","Time":0.434,"Threads":8}
+
+[Info] Processing uniformly_random_file_1MB.bin
+[Info] Compress sequentially uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin","Action":"compress_sequential","Time":0.128,"Threads":1}
+
+[Info] Decompress sequentially uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin.compressed","Action":"decode_sequential","Time":0.277,"Threads":1}
+
+[Info] Compress parallel 1 uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin","Action":"compress_parallel","Time":0.127,"Threads":1}
+
+[Info] Compress parallel 1 uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin_1.compressed","Action":"decode_parallel","Time":0.27,"Threads":1}
+
+[Info] Compress parallel 2 uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin","Action":"compress_parallel","Time":0.074,"Threads":2}
+
+[Info] Compress parallel 2 uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin_2.compressed","Action":"decode_parallel","Time":0.156,"Threads":2}
+
+[Info] Compress parallel 3 uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin","Action":"compress_parallel","Time":0.051,"Threads":3}
+
+[Info] Compress parallel 3 uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin_3.compressed","Action":"decode_parallel","Time":0.122,"Threads":3}
+
+[Info] Compress parallel 4 uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin","Action":"compress_parallel","Time":0.048,"Threads":4}
+
+[Info] Compress parallel 4 uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin_4.compressed","Action":"decode_parallel","Time":0.092,"Threads":4}
+
+[Info] Compress parallel 5 uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin","Action":"compress_parallel","Time":0.043,"Threads":5}
+
+[Info] Compress parallel 5 uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin_5.compressed","Action":"decode_parallel","Time":0.08,"Threads":5}
+
+[Info] Compress parallel 6 uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin","Action":"compress_parallel","Time":0.042,"Threads":6}
+
+[Info] Compress parallel 6 uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin_6.compressed","Action":"decode_parallel","Time":0.074,"Threads":6}
+
+[Info] Compress parallel 7 uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin","Action":"compress_parallel","Time":0.035,"Threads":7}
+
+[Info] Compress parallel 7 uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin_7.compressed","Action":"decode_parallel","Time":0.074,"Threads":7}
+
+[Info] Compress parallel 8 uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin","Action":"compress_parallel","Time":0.036,"Threads":8}
+
+[Info] Compress parallel 8 uniformly_random_file_1MB.bin
+{"Filename":"uniformly_random_file_1MB.bin_8.compressed","Action":"decode_parallel","Time":0.063,"Threads":8}
+
+[Info] Processing uniformly_random_file_200MB.bin
+[Info] Compress sequentially uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin","Action":"compress_sequential","Time":18.646,"Threads":1}
+
+[Info] Decompress sequentially uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin.compressed","Action":"decode_sequential","Time":43.945,"Threads":1}
+
+[Info] Compress parallel 1 uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin","Action":"compress_parallel","Time":19.416,"Threads":1}
+
+[Info] Compress parallel 1 uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin_1.compressed","Action":"decode_parallel","Time":43.519,"Threads":1}
+
+[Info] Compress parallel 2 uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin","Action":"compress_parallel","Time":9.962,"Threads":2}
+
+[Info] Compress parallel 2 uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin_2.compressed","Action":"decode_parallel","Time":22.519,"Threads":2}
+
+[Info] Compress parallel 3 uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin","Action":"compress_parallel","Time":7.328,"Threads":3}
+
+[Info] Compress parallel 3 uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin_3.compressed","Action":"decode_parallel","Time":16.092,"Threads":3}
+
+[Info] Compress parallel 4 uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin","Action":"compress_parallel","Time":5.51,"Threads":4}
+
+[Info] Compress parallel 4 uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin_4.compressed","Action":"decode_parallel","Time":12.127,"Threads":4}
+
+[Info] Compress parallel 5 uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin","Action":"compress_parallel","Time":4.79,"Threads":5}
+
+[Info] Compress parallel 5 uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin_5.compressed","Action":"decode_parallel","Time":10.118,"Threads":5}
+
+[Info] Compress parallel 6 uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin","Action":"compress_parallel","Time":4.03,"Threads":6}
+
+[Info] Compress parallel 6 uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin_6.compressed","Action":"decode_parallel","Time":13.608,"Threads":6}
+
+[Info] Compress parallel 7 uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin","Action":"compress_parallel","Time":3.881,"Threads":7}
+
+[Info] Compress parallel 7 uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin_7.compressed","Action":"decode_parallel","Time":13.205,"Threads":7}
+
+[Info] Compress parallel 8 uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin","Action":"compress_parallel","Time":3.376,"Threads":8}
+
+[Info] Compress parallel 8 uniformly_random_file_200MB.bin
+{"Filename":"uniformly_random_file_200MB.bin_8.compressed","Action":"decode_parallel","Time":8.006,"Threads":8}
+
+[Info] Processing uniformly_random_file_20MB.bin
+[Info] Compress sequentially uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin","Action":"compress_sequential","Time":2.082,"Threads":1}
+
+[Info] Decompress sequentially uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin.compressed","Action":"decode_sequential","Time":4.311,"Threads":1}
+
+[Info] Compress parallel 1 uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin","Action":"compress_parallel","Time":2.027,"Threads":1}
+
+[Info] Compress parallel 1 uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin_1.compressed","Action":"decode_parallel","Time":4.401,"Threads":1}
+
+[Info] Compress parallel 2 uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin","Action":"compress_parallel","Time":1.224,"Threads":2}
+
+[Info] Compress parallel 2 uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin_2.compressed","Action":"decode_parallel","Time":2.47,"Threads":2}
+
+[Info] Compress parallel 3 uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin","Action":"compress_parallel","Time":0.808,"Threads":3}
+
+[Info] Compress parallel 3 uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin_3.compressed","Action":"decode_parallel","Time":1.805,"Threads":3}
+
+[Info] Compress parallel 4 uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin","Action":"compress_parallel","Time":0.681,"Threads":4}
+
+[Info] Compress parallel 4 uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin_4.compressed","Action":"decode_parallel","Time":1.449,"Threads":4}
+
+[Info] Compress parallel 5 uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin","Action":"compress_parallel","Time":0.609,"Threads":5}
+
+[Info] Compress parallel 5 uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin_5.compressed","Action":"decode_parallel","Time":1.129,"Threads":5}
+
+[Info] Compress parallel 6 uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin","Action":"compress_parallel","Time":0.533,"Threads":6}
+
+[Info] Compress parallel 6 uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin_6.compressed","Action":"decode_parallel","Time":1.045,"Threads":6}
+
+[Info] Compress parallel 7 uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin","Action":"compress_parallel","Time":0.491,"Threads":7}
+
+[Info] Compress parallel 7 uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin_7.compressed","Action":"decode_parallel","Time":0.959,"Threads":7}
+
+[Info] Compress parallel 8 uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin","Action":"compress_parallel","Time":0.471,"Threads":8}
+
+[Info] Compress parallel 8 uniformly_random_file_20MB.bin
+{"Filename":"uniformly_random_file_20MB.bin_8.compressed","Action":"decode_parallel","Time":0.86,"Threads":8}
+
+[Info] Processing uniformly_random_file_500MB.bin
+[Info] Compress sequentially uniformly_random_file_500MB.bin
+
+[Info] Decompress sequentially uniformly_random_file_500MB.bin
+
+Warning: Sequential_Compressed\uniformly_random_file_500MB.bin.compressed is neither a file nor a directory.
+Warning: Sequential_Decoded\uniformly_random_file_500MB.bin.decoded is neither a file nor a directory.
+[Info] Compress parallel 1 uniformly_random_file_500MB.bin
+
+[Info] Compress parallel 1 uniformly_random_file_500MB.bin
+
+[Info] Compress parallel 2 uniformly_random_file_500MB.bin
+{"Filename":"uniformly_random_file_500MB.bin","Action":"compress_parallel","Time":26.575,"Threads":2}
+
+[Info] Compress parallel 2 uniformly_random_file_500MB.bin
+{"Filename":"uniformly_random_file_500MB.bin_2.compressed","Action":"decode_parallel","Time":55.807,"Threads":2}
+
+[Info] Compress parallel 3 uniformly_random_file_500MB.bin
+{"Filename":"uniformly_random_file_500MB.bin","Action":"compress_parallel","Time":18.028,"Threads":3}
+
+[Info] Compress parallel 3 uniformly_random_file_500MB.bin
+{"Filename":"uniformly_random_file_500MB.bin_3.compressed","Action":"decode_parallel","Time":39.109,"Threads":3}
+
+[Info] Compress parallel 4 uniformly_random_file_500MB.bin
+{"Filename":"uniformly_random_file_500MB.bin","Action":"compress_parallel","Time":14.176,"Threads":4}
+
+[Info] Compress parallel 4 uniformly_random_file_500MB.bin
+{"Filename":"uniformly_random_file_500MB.bin_4.compressed","Action":"decode_parallel","Time":48.167,"Threads":4}
+
+[Info] Compress parallel 5 uniformly_random_file_500MB.bin
+{"Filename":"uniformly_random_file_500MB.bin","Action":"compress_parallel","Time":12.077,"Threads":5}
+
+[Info] Compress parallel 5 uniformly_random_file_500MB.bin
+{"Filename":"uniformly_random_file_500MB.bin_5.compressed","Action":"decode_parallel","Time":29.208,"Threads":5}
+
+[Info] Compress parallel 6 uniformly_random_file_500MB.bin
+{"Filename":"uniformly_random_file_500MB.bin","Action":"compress_parallel","Time":10.707,"Threads":6}
+
+[Info] Compress parallel 6 uniformly_random_file_500MB.bin
+{"Filename":"uniformly_random_file_500MB.bin_6.compressed","Action":"decode_parallel","Time":24.624,"Threads":6}
+
+[Info] Compress parallel 7 uniformly_random_file_500MB.bin
+{"Filename":"uniformly_random_file_500MB.bin","Action":"compress_parallel","Time":9.643,"Threads":7}
+
+[Info] Compress parallel 7 uniformly_random_file_500MB.bin
+{"Filename":"uniformly_random_file_500MB.bin_7.compressed","Action":"decode_parallel","Time":26.416,"Threads":7}
+
+[Info] Compress parallel 8 uniformly_random_file_500MB.bin
+{"Filename":"uniformly_random_file_500MB.bin","Action":"compress_parallel","Time":8.538,"Threads":8}
+
+[Info] Compress parallel 8 uniformly_random_file_500MB.bin
+{"Filename":"uniformly_random_file_500MB.bin_8.compressed","Action":"decode_parallel","Time":21.393,"Threads":8}
+
+[Info] Processing uniformly_random_file_50MB.bin
+[Info] Compress sequentially uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin","Action":"compress_sequential","Time":4.781,"Threads":1}
+
+[Info] Decompress sequentially uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin.compressed","Action":"decode_sequential","Time":11.195,"Threads":1}
+
+[Info] Compress parallel 1 uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin","Action":"compress_parallel","Time":4.894,"Threads":1}
+
+[Info] Compress parallel 1 uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin_1.compressed","Action":"decode_parallel","Time":10.781,"Threads":1}
+
+[Info] Compress parallel 2 uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin","Action":"compress_parallel","Time":2.864,"Threads":2}
+
+[Info] Compress parallel 2 uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin_2.compressed","Action":"decode_parallel","Time":5.734,"Threads":2}
+
+[Info] Compress parallel 3 uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin","Action":"compress_parallel","Time":1.965,"Threads":3}
+
+[Info] Compress parallel 3 uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin_3.compressed","Action":"decode_parallel","Time":4.033,"Threads":3}
+
+[Info] Compress parallel 4 uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin","Action":"compress_parallel","Time":1.526,"Threads":4}
+
+[Info] Compress parallel 4 uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin_4.compressed","Action":"decode_parallel","Time":3.279,"Threads":4}
+
+[Info] Compress parallel 5 uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin","Action":"compress_parallel","Time":1.246,"Threads":5}
+
+[Info] Compress parallel 5 uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin_5.compressed","Action":"decode_parallel","Time":2.773,"Threads":5}
+
+[Info] Compress parallel 6 uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin","Action":"compress_parallel","Time":1.154,"Threads":6}
+
+[Info] Compress parallel 6 uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin_6.compressed","Action":"decode_parallel","Time":2.57,"Threads":6}
+
+[Info] Compress parallel 7 uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin","Action":"compress_parallel","Time":1.085,"Threads":7}
+
+[Info] Compress parallel 7 uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin_7.compressed","Action":"decode_parallel","Time":2.322,"Threads":7}
+
+[Info] Compress parallel 8 uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin","Action":"compress_parallel","Time":0.987,"Threads":8}
+
+[Info] Compress parallel 8 uniformly_random_file_50MB.bin
+{"Filename":"uniformly_random_file_50MB.bin_8.compressed","Action":"decode_parallel","Time":2.16,"Threads":8}
+
+[Info] Processing uniformly_random_file_5MB.bin
+[Info] Compress sequentially uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin","Action":"compress_sequential","Time":0.552,"Threads":1}
+
+[Info] Decompress sequentially uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin.compressed","Action":"decode_sequential","Time":1.188,"Threads":1}
+
+[Info] Compress parallel 1 uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin","Action":"compress_parallel","Time":0.552,"Threads":1}
+
+[Info] Compress parallel 1 uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin_1.compressed","Action":"decode_parallel","Time":1.191,"Threads":1}
+
+[Info] Compress parallel 2 uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin","Action":"compress_parallel","Time":0.332,"Threads":2}
+
+[Info] Compress parallel 2 uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin_2.compressed","Action":"decode_parallel","Time":0.656,"Threads":2}
+
+[Info] Compress parallel 3 uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin","Action":"compress_parallel","Time":0.244,"Threads":3}
+
+[Info] Compress parallel 3 uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin_3.compressed","Action":"decode_parallel","Time":0.441,"Threads":3}
+
+[Info] Compress parallel 4 uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin","Action":"compress_parallel","Time":0.201,"Threads":4}
+
+[Info] Compress parallel 4 uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin_4.compressed","Action":"decode_parallel","Time":0.397,"Threads":4}
+
+[Info] Compress parallel 5 uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin","Action":"compress_parallel","Time":0.159,"Threads":5}
+
+[Info] Compress parallel 5 uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin_5.compressed","Action":"decode_parallel","Time":0.304,"Threads":5}
+
+[Info] Compress parallel 6 uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin","Action":"compress_parallel","Time":0.127,"Threads":6}
+
+[Info] Compress parallel 6 uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin_6.compressed","Action":"decode_parallel","Time":0.403,"Threads":6}
+
+[Info] Compress parallel 7 uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin","Action":"compress_parallel","Time":0.135,"Threads":7}
+
+[Info] Compress parallel 7 uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin_7.compressed","Action":"decode_parallel","Time":0.257,"Threads":7}
+
+[Info] Compress parallel 8 uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin","Action":"compress_parallel","Time":0.132,"Threads":8}
+
+[Info] Compress parallel 8 uniformly_random_file_5MB.bin
+{"Filename":"uniformly_random_file_5MB.bin_8.compressed","Action":"decode_parallel","Time":0.3,"Threads":8}
+
+[Info] Compression and decompression completed.

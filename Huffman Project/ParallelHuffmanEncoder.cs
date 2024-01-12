@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Huffman_Project
@@ -23,8 +25,10 @@ namespace Huffman_Project
                 Directory.Delete(compressedDirectory, true);
             Directory.CreateDirectory(compressedDirectory);
 
+            //Console.WriteLine($"Started Read {DateTime.Now.ToString("hh:mm:ss.fff")}");
             var filePrefix = Path.Combine(compressedDirectory, "Part_");
             var inputBytes = File.ReadAllBytes(fileToCompress);
+            //Console.WriteLine($"Finished Read {DateTime.Now.ToString("hh:mm:ss.fff")}");
 
             var chunkSize = inputBytes.Length / _compressPartsNumber + 1;
 
@@ -34,22 +38,28 @@ namespace Huffman_Project
                 var thread = CompressChunk(chunk, filePrefix + chunkIndex);
                 chunkIndex++;
                 return thread;
-            });
+            }).ToList();
 
             foreach (var thread in threads)
                 thread.Join();
+
+            //Console.WriteLine($"Finished Compress {DateTime.Now.ToString("hh:mm:ss.fff")}");
         }
         private Thread CompressChunk(byte[] chunk, string compressedFilePath)
         {
             var thread = new Thread(() =>
             {
+                //Console.WriteLine($"Thread {compressedFilePath.Last()} Started Compress {DateTime.Now.ToString("hh:mm:ss.fff")}");
                 var sequentialEncoder = new SequentialHuffmanEncoder();
                 var compressedBits = sequentialEncoder.CompressBinary(chunk);
+                //Console.WriteLine($"Thread {compressedFilePath.Last()} Started Write {DateTime.Now.ToString("hh:mm:ss.fff")}");
                 FilesHelper.WriteBooleanListToFile(compressedBits, compressedFilePath);
             });
             thread.Start();
             return thread;
         }
+
+
 
         public void Decode(string directoryToDecode, string decodedFile)
         {
@@ -65,7 +75,7 @@ namespace Huffman_Project
                 var thread = DecompressFile(file, chunksToFill, chunkIndex);
                 chunkIndex++;
                 return thread;
-            });
+            }).ToList();
 
             foreach (var thread in threads)
                 thread.Join();
@@ -80,7 +90,6 @@ namespace Huffman_Project
         {
             var thread = new Thread(() =>
             {
-
                 var sequentialEncoder = new SequentialHuffmanEncoder();
                 var inputBytes = FilesHelper.ReadBooleanListFromFile(fileToDecode);
 

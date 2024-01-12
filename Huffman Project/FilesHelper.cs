@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -76,7 +77,28 @@ namespace Huffman_Project
                 }
             }
         }
-    
+
+        public static long GetFileOrDirectorySize(string path)
+        {
+            if (Directory.Exists(path))
+            {
+                string[] files = Directory.GetFiles(path);
+
+                long total_size = 0;
+
+                foreach (string compressedFile in files)
+                {
+                    total_size += new FileInfo(compressedFile).Length;
+                }
+                return total_size;
+            }
+            if (File.Exists(path))
+            {
+                return new FileInfo(path).Length;
+            }
+            throw new FileNotFoundException(nameof(path));
+        }
+
 
 
     }
