@@ -2,7 +2,7 @@ import subprocess
 import os
 
 #sizes = [1, 5, 10]
-sizes = [1, 5, 10, 20, 50, 100, 200, 500, 1000]
+sizes = [1, 5, 10, 20, 50, 100, 200]
 types = ['uniformly_random', 'all_same', 'ten_chunks']
 output_directory = "ToCompress"
 
